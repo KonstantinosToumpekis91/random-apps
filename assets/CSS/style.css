@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #233142;
+}
+
+header h1 {
+  text-align: center;
+  text-shadow: -1px -2px #000;
+}
+
+section#top-menu {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2px 20px;
+}
+
+ul.menu {
+  width: 200px;
+  display: flex;
+  padding: 0;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+ul.menu a {
+  text-decoration: none;
+  color: #455d7a;
+}
+
+ul.menu a:hover {
+  color: #f95959;
+  border-bottom: 1px solid #fff;
+}
+
+section img.logo {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+section.container {
+  width: 500px;
+  margin: 20px auto;
+}
+
+footer {
+  text-align: center;
+  color: #fff;
+}
+
+.btn {
+  background-color: #00bbf0;
+  border-radius: 5px;
+  border: 1px solid #6c5b7c;
+  padding: 10px 13px;
+  color: #fff;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #005792;
+  transform: scale(1.1);
+}
+
+.btn-delete {
+  background-color: #eb2632;
+  border-radius: 5px;
+  border: 1px solid #6c5b7c;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.btn-delete:hover {
+  cursor: pointer;
+  background-color: #92253f;
+}
+
+.note-content {
+  border: 2px solid #288fb4;
+  padding: 2%;
+  margin: 2% 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #aeaf7a;
+}
+
+/* calculator styles */
+main#calc {
+  height: 80vh;
+}
+
+main table {
+  margin: 0 auto;
+}
+
+.btn-cal {
+  width: 80px;
+  height: 40px;
+  font-size: 16px;
+  border: 1px solid #132743;
+  border-radius: 3px;
+}
+
+.btn-cal:hover {
+  background-color: rebeccapurple;
+  color: #fff;
+}
+
+.btn-cal:active {
+  background-color: rebeccapurple;
+  color: #000;
+}
+
+#display {
+  width: 330px;
+  height: 35px;
+}
+
+.equal {
+  width: 330px;
+}

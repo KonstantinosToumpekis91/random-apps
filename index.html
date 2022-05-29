@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/apps/assets/CSS/style.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header>
+      <section id="top-menu">
+        <a href="index.html"
+          ><img class="logo" src="/apps/assets/icons/logo.png" alt="logo"
+        /></a>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Σημειώσεις</a></li>
+            <li><a href="calculator.html">Αριθμομηχανή</a></li>
+          </ul>
+        </nav>
+      </section>
+      <h1>Οι Σημειώσεις μου!</h1>
+    </header>
+    <main>
+      <section class="container">
+        <form>
+          <div>
+            <label for="note">Εισάγεται τις σημειώσεις σας!</label
+            ><br /><textarea
+              name="note"
+              id="note"
+              cols="40"
+              rows="6"
+            ></textarea>
+          </div>
+          <button class="btn" type="submit">Προσθέστε</button>
+        </form>
+        <h3>Σημειώσεις</h3>
+        <div id="notes-container"></div>
+      </section>
+    </main>
+    <footer>
+      <p><small>Copyright @Konstantinos</small></p>
+    </footer>
+    <script src="/apps/app.js"></script>
+  </body>
+</html>

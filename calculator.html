@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/apps/assets/CSS/style.css" />
+    <title>Αριθμομηχανή</title>
+  </head>
+  <body>
+    <header>
+      <section id="top-menu">
+        <a href="index.html"
+          ><img class="logo" src="/apps/assets/icons/logo.png" alt="logo"
+        /></a>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html">Σημειώσεις</a></li>
+            <li><a href="calculator.html">Αριθμομηχανή</a></li>
+          </ul>
+        </nav>
+      </section>
+      <h1>Αριθμομηχανή</h1>
+    </header>
+    <main id="calc">
+      <section>
+        <table>
+          <tbody>
+            <tr>
+              <td colspan="4">
+                <input
+                  type="text"
+                  disabled
+                  id="display"
+                  placeholder="Calculate..."
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><button class="num btn-cal" data-num="7">7</button></td>
+              <td><button class="num btn-cal" data-num="8">8</button></td>
+              <td><button class="num btn-cal" data-num="9">9</button></td>
+              <td><button class="num btn-cal" data-num="/">/</button></td>
+            </tr>
+            <tr>
+              <td><button class="num btn-cal" data-num="4">4</button></td>
+              <td><button class="num btn-cal" data-num="5">5</button></td>
+              <td><button class="num btn-cal" data-num="6">6</button></td>
+              <td><button class="num btn-cal" data-num="*">*</button></td>
+            </tr>
+            <tr>
+              <td><button class="num btn-cal" data-num="1">1</button></td>
+              <td><button class="num btn-cal" data-num="2">2</button></td>
+              <td><button class="num btn-cal" data-num="3">3</button></td>
+              <td><button class="num btn-cal" data-num="+">+</button></td>
+            </tr>
+            <tr>
+              <td><button class="num btn-cal" data-num=".">.</button></td>
+              <td><button class="num btn-cal" data-num="0">0</button></td>
+              <td><button class="clear btn-cal">C</button></td>
+              <td><button class="num btn-cal" data-num="-">-</button></td>
+            </tr>
+            <tr>
+              <td colspan="4"><button class="equal btn-cal">=</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p><small>Copyright @Konstantinos</small></p>
+    </footer>
+    <script src="/apps/app1.js"></script>
+  </body>
+</html>
